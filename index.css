@@ -1,0 +1,170 @@
+html {
+  box-sizing: border-box;
+}
+
+body{
+  color: green;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+
+  #expandedImg{
+  width:100%;
+}
+.padbot{
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+.product-bottom, .product-info{
+  margin-left: .5rem;
+}
+
+.voting{
+  padding-left: 5px;
+}
+
+.voting-button{
+  margin-left: 10px;
+}
+
+}
+
+.about-section{
+  margin: 0 1rem 0 1rem;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  .expand1{
+height: 35rem; 
+margin-left: 5rem;
+  }
+
+  .expand2{
+height: 35rem; 
+margin-left: 2rem;
+
+  }
+
+  .expand3{
+height: 35rem;
+  }
+
+  .expand4{
+height: 35rem; 
+margin-left: 5rem;
+  }
+
+#try{
+  margin-left: 30rem;
+}
+
+#contact-list{
+  padding-left: 45rem;
+  margin-bottom: 1rem;
+}
+
+#poster{
+margin: 5px 25px 1px 5px;
+border: solid green 2px;
+box-shadow: 2px 2px;
+}
+
+.voting{
+  padding-right: 2rem;
+  padding-left: 1rem;
+}
+
+.vh3{
+padding-top: rem;
+}
+
+.card{
+  height: 30rem;
+}
+
+.voting-button{
+  margin-left: 2rem;
+}
+
+.imginfo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-bottom: solid green 1px;
+}
+.product-info{
+  margin-top: 3rem;
+  padding-right: 2rem;
+}
+
+.product-info{
+  margin-left: .2rem;
+}
+#buy-button{
+  margin-left: 1rem; 
+  margin-top: 3rem;
+}
+.margin-left{
+  margin-left: 3rem;
+}
+
+.rowb{
+  margin-left: 7rem;
+}
+
+.card-img-top{
+  height: 16rem;
+  object-fit: cover;
+}
+
+.about-section{
+  margin: 0 5rem 0 5rem;
+}
+}
+
+.tabs{
+  float: left;
+  padding: 5px;
+  cursor: pointer;
+}
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+/* Clear floats after the columns */
+.rowb:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tab-button {
+  border: solid green 1px;
+  width: 50px;
+  height: 50px;
+}
+
+.product-bottom{
+  margin-top: 1rem;
+}
+
+.request-part{
+  margin-left: .5rem;
+}
+
+.col{
+  cursor: pointer;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+/*to remove the unwanted margin right*/
+#remove-margin{
+  margin: 0;
+}
