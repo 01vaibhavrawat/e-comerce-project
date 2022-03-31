@@ -2,9 +2,10 @@ html {
   box-sizing: border-box;
 }
 
-body{
-  color: green;
+form{
+  color: #6C757D;
 }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 768px) {
 
@@ -32,6 +33,11 @@ body{
 .about-section{
   margin: 0 1rem 0 1rem;
 }
+
+form{
+  margin: 0 2rem 4rem 2rem;
+  }
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -67,14 +73,20 @@ margin-left: 5rem;
 
 #poster{
 margin: 5px 25px 1px 5px;
-border: solid green 2px;
-box-shadow: 2px 2px;
 }
 
+#posterandinfo{
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
 .voting{
   padding-right: 2rem;
   padding-left: 1rem;
 }
+
+form{
+    margin: 0 35rem 5rem 30rem;
+  }
 
 .vh3{
 padding-top: rem;

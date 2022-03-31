@@ -14,6 +14,12 @@ form{
 	color: #6C757D;
 }
 
+
+.col{
+  cursor: pointer;
+  z-index: 2;
+  pointer-events: auto;
+}
 @media only screen and (max-width: 768px) {
 
 	.body{
@@ -45,7 +51,7 @@ form{
  
 
 @media only screen and (min-width: 768px) {
-	img{
+	.img{
 		width: 30%;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
@@ -76,6 +82,16 @@ form{
 	form{
 		margin: 0 35rem 5rem 30rem;
 	}
+
+
+.card{
+  height: 30rem;
+}
+
+.card-img-top{
+  height: 16rem;
+  object-fit: cover;
+}
 
 	#about{
 		margin: 1rem 14rem 0 13rem; 
